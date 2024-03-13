@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="admin/index.php?page=login">[admin]</a>
+                        <a href="admin/index.php?page=login">Admin</a>
                     </li>
                 </ul>
             </div>
