@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="/assets/bootstrap/css/thumbnail-gallery.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="/assets/bootstrap/css/thumbnail-gallery.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,7 +51,23 @@
             </div>
         </div>
 
-     
+      <!-- Footer -->
+      <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="/assets/bootstrap/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
