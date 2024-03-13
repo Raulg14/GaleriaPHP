@@ -34,6 +34,8 @@
                 
                 <select  class="form-control" name=author_id id=author_id>
                     <?php
+                    //Mediante este select vamos a traernos los datos de los autores de la base de datos de phpmyadmin,
+                    //de esta manera tendremos un desplegable de todos los autores que tenemos registrados.
                       foreach ( $rows as $row) 
                       {
                         echo "<option value= ".$row[0].">".$row[1]."</option>";
