@@ -18,7 +18,7 @@
     <link href="../assets/bootstrap/css/thumbnail-gallery.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/var/www/html/Galeria/assets/bootstrap/css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/thumbnail-gallery.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,29 +30,21 @@
 </head>
 
 <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-6 form_login" >
-                <form class="form-signin" method="post" action="actions/login.act.php">
-                    <h4 class="form-signin-heading">Por favor, registrese</h4>
-                        <label for="inputEmail" class="sr-only">Email</label>
-                        <input type="email" id="email_login" name="email_login" class="form-control frm_login_email" placeholder="Email" required autofocus>
-                        <br><br>
-                        <label for="inputPassword" class="sr-only">Contraseña</label>
-                        <input type="password" id="login_password" name="login_password" class="form-control frm_login_pass" placeholder="Contraseña" required>
-        <br><br>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
-        <br><br>
-        <a class="btn btn-lg btn-warning btn-block" href="index.php?page=new">Alta nuevo autor</a>
-    </form>
-                </div>
-                <div class="col-lg-3"></div>
 
+        <?php
+            $page = $_GET['page'];
 
-            </div>
-        </div>
-
+            switch ($page) {
+              case 'login':
+                include "includes/log.inc.php";
+                break;
+              
+              case 'new':
+                include "includes/new.inc.php";
+                break;
+            }
+            
+        ?>
       <!-- Footer -->
       <footer>
             <div class="row">
