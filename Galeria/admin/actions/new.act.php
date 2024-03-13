@@ -28,5 +28,7 @@
    $return = Execute( $sql, $connection);
  
    Close( $connection);
- 
+   //Para redireccionar a otra pagina que hemos creado
    header ( "location: /admin/home.php");
+
+   
