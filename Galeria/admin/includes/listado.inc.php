@@ -74,8 +74,8 @@
                   <td>'.$row['name'].'</td>
                   <td>'.date( "d/m/Y H:s:i", strtotime( $row['created'])).'</td>
                   <td>'.$enabled.'</td>
-                  <td><a href="home.php?page=edit&id='.$row['id'].'"><img src="../assets/img/edit.png" width=20px></a></td>
-                  <td><a href="#" OnClick="delete_post('.$row['id'].')"><img src="../assets/img/delete_2.png"  width=20px></a></td>
+                  <td><a href="home.php?page=edit&id='.$row['id'].'"><img src="../assets/bootstrap/img/edit.png" width=20px></a></td>
+                  <td><a href="#" OnClick="delete_post('.$row['id'].')"><img src="../assets/bootstrap/img/delete_2.png"  width=20px></a></td>
                   </tr>
                 ';  
               }
