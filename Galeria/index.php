@@ -91,7 +91,7 @@
     {
       echo '<div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a class="thumbnail" href="#">
-                <img class="img-responsive css_img" src="imagenes/..'.$row['file'].'" alt="">
+                <img class="img-responsive css_img" src="imagenes/'.$row['file'].'" alt="">
                 
             </a>'.$row['name'].'
         </div>';
