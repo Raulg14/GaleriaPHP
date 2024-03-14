@@ -68,7 +68,7 @@
                 }
                 else
                 {
-                  $enabled = "<img src='../assets/bootstrap/img/no_activo.png' width=20px>";
+                  $enabled = "<img src='../assets/bootstrap/img/delete_2.png' width=20px>";
                 }
 
 
