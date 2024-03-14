@@ -61,11 +61,11 @@
 
                 if ( $row['enabled'] == "1")
                 {
-                  $enabled = "<img src='../assets/img/activo.png'  width=20px>";
+                  $enabled = "<img src='../assets/bootstrap/img/activo.png'  width=20px>";
                 }
                 else
                 {
-                  $enabled = "<img src='../assets/img/no_activo.png' width=20px>";
+                  $enabled = "<img src='../assets/bootstrap/img/no_activo.png' width=20px>";
                 }
 
                 echo '
